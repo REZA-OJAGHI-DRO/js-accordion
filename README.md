@@ -1,7 +1,7 @@
 # js-accordion
 **If you have a lot of information to display on your site, why don't you use my accordion menu**
 
-
+![screencapture-reza-ojaghi-dro-github-io-js-accordion-2023-11-18-20_23_25](https://github.com/REZA-OJAGHI-DRO/js-accordion/assets/145910720/a48b5890-d0f6-4e7d-bb3d-06a9b8ac05ee)
 
 - [Demo Project](https://reza-ojaghi-dro.github.io/js-accordion/)
  
