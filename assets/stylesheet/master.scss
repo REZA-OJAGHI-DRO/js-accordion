@@ -1,0 +1,338 @@
+$fo-fa-1: 'Alumni Sans Collegiate One',
+sans-serif;
+$fo-fa-2:'Cormorant Garamond',
+serif;
+$fo-fa-3: 'Young Serif',
+serif;
+$fo-fa-4:'Oswald',
+sans-serif;
+
+.div2{
+    height: 100vh;
+    background-color: rgb(66, 66, 66);
+    >div:nth-of-type(1){
+        grid-area: 1/1/2/2;
+        height: 100%;
+        >h1{
+            font-size: 6rem;
+            font-family: $fo-fa-3;
+            text-transform: uppercase;
+        }
+    }
+}
+.div{
+    grid-area: 1/1/2/2;
+    height: 100%;
+    >section{
+        position: relative;
+        >ul{
+            >li{
+                background-color: rgb(23, 23, 23);
+                cursor: pointer;
+                color: white;
+                >h4{
+                    &:hover{
+                        color: aqua;
+                    }
+                    font-family: $fo-fa-4;
+                    font-size: 3rem;
+                }
+                &:nth-of-type(1){
+                    >ul{
+                        >li{
+                            background-color: rgb(65, 110, 112);
+                            transition: .4S;
+                            
+                            &:hover{
+                                background-color: cadetblue;
+                                
+                            }
+                            >h4{
+                                &:hover{
+                                    color: aqua;
+                                }
+                                font-family: $fo-fa-4;
+                                font-size: 2rem;
+                            }
+                            &:nth-of-type(1){
+                                >ul{
+                                    >li{
+                                        background-color: rgb(184, 44, 67);
+                                        transition: .4S;
+                                        
+                                        &:hover{
+                                            background-color: rgb(240, 67, 96);
+                                            &:hover{
+                                                color: aqua;
+                                            }
+                                        }
+                                        >h4{
+                                            font-family: $fo-fa-4;
+                                            font-size: 1.5rem;
+                                        }
+                                        &:nth-of-type(1){
+                                            >ul{
+                                                >li{
+                                                    background-color: rgb(184, 144, 44);
+                                                    transition: .4S;
+                                                    
+                                                    &:hover{
+                                                        background-color: rgb(240, 211, 67);
+                                                        &:hover{
+                                                            color: aqua;
+                                                        }
+                                                    }
+                                                    >h4{
+                                                        font-family: $fo-fa-4;
+                                                        font-size: 1rem;
+                                                    }
+                                                    
+                                                        >ul{
+                                                            >li{
+                                                                    background-color: rgb(238, 238, 238);
+                                                                        color: rgb(0, 0, 0);
+                                                                >p{
+                                                                    font-family: $fo-fa-4;
+                                                                    font-size: 1rem;
+                                                                }
+                                                            }
+                                                        }
+                                                     
+                                                }
+                                            }
+                                        }
+                                        &:nth-of-type(2){
+                                            >ul{
+                                                >li{
+                                                        background-color: rgb(238, 238, 238);
+                                                            color: rgb(0, 0, 0);
+                                                    >p{
+                                                        font-family: $fo-fa-4;
+                                                        font-size: 1rem;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        &:nth-of-type(3){
+                                            >ul{
+                                                >li{
+                                                    background-color: rgb(184, 144, 44);
+                                                    transition: .4S;
+                                                    
+                                                    &:hover{
+                                                        background-color: rgb(240, 211, 67);
+                                                        &:hover{
+                                                            color: aqua;
+                                                        }
+                                                    }
+                                                    >h4{
+                                                        font-family: $fo-fa-4;
+                                                        font-size: 1rem;
+                                                    }
+                                                    
+                                                        >ul{
+                                                            >li{
+                                                                    background-color: rgb(238, 238, 238);
+                                                                        color: rgb(0, 0, 0);
+                                                                >p{
+                                                                    font-family: $fo-fa-4;
+                                                                    font-size: 1rem;
+                                                                }
+                                                            }
+                                                        }
+                                                     
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            &:nth-of-type(2){
+                                >ul{
+                                    >li{
+                                            background-color: rgb(238, 238, 238);
+                                                color: rgb(0, 0, 0);
+                                        >p{
+                                            font-family: $fo-fa-4;
+                                            font-size: 1rem;
+                                        }
+                                    }
+                                }
+                            }
+                            &:nth-of-type(3){
+                                >ul{
+                                    >li{
+                                        background-color: rgb(184, 44, 67);
+                                        transition: .4S;
+                                        
+                                        &:hover{
+                                            background-color: rgb(240, 67, 96);
+                                            &:hover{
+                                                color: aqua;
+                                            }
+                                        }
+                                        >h4{
+                                            font-family: $fo-fa-4;
+                                            font-size: 1.5rem;
+                                        }
+                                        >ul{
+                                            >li{
+                                                    background-color: rgb(238, 238, 238);
+                                                        color: rgb(0, 0, 0);
+                                                >p{
+                                                    font-family: $fo-fa-4;
+                                                    font-size: 1rem;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                &:nth-of-type(2){
+                    >ul{
+                        >li{
+                            background-color: rgb(65, 110, 112);
+                            transition: .4S;
+                            &:hover{
+                                background-color: cadetblue;
+                                &:hover{
+                                    color: aqua;
+                                }
+                            }
+                            >h4{
+                                font-family: $fo-fa-4;
+                                font-size: 2rem;
+                            }
+                            >ul{
+                                >li{
+                                        background-color: rgb(238, 238, 238);
+                                            color: rgb(0, 0, 0);
+                                    >p{
+                                        font-family: $fo-fa-4;
+                                        font-size: 1rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                &:nth-of-type(3){
+                    >ul{
+                        >li{
+                            background-color: rgb(65, 110, 112);
+                            transition: .4S;
+                            &:hover{
+                                background-color: cadetblue;
+                                &:hover{
+                                    color: aqua;
+                                }
+                            }
+                            >h4{
+                                font-family: $fo-fa-4;
+                                font-size: 2rem;
+                            }
+                            &:nth-of-type(1){
+                                >ul{
+                                    >li{
+                                            background-color: rgb(238, 238, 238);
+                                                color: rgb(0, 0, 0);
+                                        >p{
+                                            font-family: $fo-fa-4;
+                                            font-size: 1rem;
+                                        }
+                                    }
+                                }
+                            }
+                            &:nth-of-type(2){
+                                >ul{
+                                    >li{
+                                            background-color: rgb(238, 238, 238);
+                                                color: rgb(0, 0, 0);
+                                        >p{
+                                            font-family: $fo-fa-4;
+                                            font-size: 1rem;
+                                        }
+                                    }
+                                }
+                            }
+                            &:nth-of-type(3){
+                                >ul{
+                                    >li{
+                                        background-color: rgb(184, 44, 67);
+                                        transition: .4S;
+                                        
+                                        &:hover{
+                                            background-color: rgb(240, 67, 96);
+                                            &:hover{
+                                                color: aqua;
+                                            }
+                                        }
+                                        >h4{
+                                            font-family: $fo-fa-4;
+                                            font-size: 1.5rem;
+                                        }
+                                        >ul{
+                                            >li{
+                                                background-color: rgb(184, 144, 44);
+                                                transition: .4S;
+                                                
+                                                &:hover{
+                                                    background-color: rgb(240, 211, 67);
+                                                    &:hover{
+                                                        color: aqua;
+                                                    }
+                                                }
+                                                >h4{
+                                                    font-family: $fo-fa-4;
+                                                    font-size: 1rem;
+                                                }
+                                                >ul{
+                                                    >li{
+                                                            background-color: rgb(238, 238, 238);
+                                                                color: rgb(0, 0, 0);
+                                                        >p{
+                                                            font-family: $fo-fa-4;
+                                                            font-size: 1rem;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.p1{
+    display: none;
+}
+.p2{
+    display: block;
+}
+.p3{
+    display: none;
+}
+.p4{
+    display: block;
+}
+.p5{
+    display: none;
+}
+.p6{
+    display: block;
+}
+.p7{
+    display: none;
+}
+.p8{
+    display: block;
+}
+
